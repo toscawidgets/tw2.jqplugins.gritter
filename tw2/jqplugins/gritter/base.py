@@ -3,15 +3,15 @@
 import tw2.core as twc
 
 jquery_gritter_js = twc.JSLink(
-    modname=__file__,
+    modname='tw2.jqplugins.gritter',
     filename='static/jquery/gritter/js/jquery.gritter.min.js'
 )
 jquery_gritter_css = twc.CSSLink(
-    modname=__file__,
+    modname='tw2.jqplugins.gritter',
     filename='static/jquery/gritter/css/jquery.gritter.css'
 )
-jquery_gritter_dir = twc.JSLink(
-    modname=__file__,
+jquery_gritter_dir = twc.DirLink(
+    modname='tw2.jqplugins.gritter',
     filename='static/jquery/gritter/img'
 )
 
