@@ -12,7 +12,7 @@ jquery_gritter_css = twc.CSSLink(
 )
 jquery_gritter_dir = twc.DirLink(
     modname='tw2.jqplugins.gritter',
-    filename='static/jquery/gritter/img'
+    filename='static/jquery/gritter/images'
 )
 
 gritter_resources = [
