@@ -11,7 +11,7 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 setup(
     name='tw2.jqplugins.gritter',
-    version='2.0b2',
+    version='2.0b3',
     description='toscawidgets2 wrapper for jquery gritter plugin.',
     long_description=long_description,
     author='Ralph Bean',
@@ -19,6 +19,7 @@ setup(
     license='MIT',
     url='http://github.com/ralphbean/tw2.jqplugins.gritter',
     install_requires=[
+        "simplejson",
         "tw2.core>=2.0b2",
         "tw2.jquery",
         "tw2.jqplugins.ui>=2.0b7",
