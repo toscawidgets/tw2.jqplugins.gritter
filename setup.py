@@ -17,7 +17,7 @@ setup(
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='MIT',
-    url='http://github.com/ralphbean/tw2.jqplugins.gritter',
+    url='http://github.com/toscawidgets/tw2.jqplugins.gritter',
     install_requires=[
         "simplejson",
         "tw2.core>=2.0b2",
