@@ -11,13 +11,13 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 setup(
     name='tw2.jqplugins.gritter',
-    version='2.0b4',
+    version='2.0.0',
     description='toscawidgets2 wrapper for jquery gritter plugin.',
     long_description=long_description,
     author='Ralph Bean',
-    author_email='ralph.bean@gmail.com',
+    author_email='rbean@redhat.com',
     license='MIT',
-    url='http://github.com/ralphbean/tw2.jqplugins.gritter',
+    url='http://github.com/toscawidgets/tw2.jqplugins.gritter',
     install_requires=[
         "simplejson",
         "tw2.core>=2.0b2",
@@ -28,12 +28,10 @@ setup(
         'genshi': _extra_genshi,
         'mako': _extra_mako,
     },
-    tests_require = ['BeautifulSoup', 'nose', 'FormEncode', 'WebTest',] + _extra_genshi + _extra_mako,
-    packages=find_packages(exclude=['ez_setup', 'tests']),
-    namespace_packages = ['tw2'],
+    packages=['tw2', 'tw2.jqplugins', 'tw2.jqplugins.gritter'],
+    namespace_packages = ['tw2', 'tw2.jqplugins'],
     zip_safe=False,
     include_package_data=True,
-    test_suite = 'nose.collector',
     entry_points="""
         [tw2.widgets]
         # Register your widgets so they can be listed in the WidgetBrowser
@@ -43,7 +41,7 @@ setup(
         'toscawidgets.widgets',
     ],
     classifiers = [
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Environment :: Web Environment :: ToscaWidgets',
         'Topic :: Software Development :: Libraries :: Python Modules',

@@ -1,7 +1,7 @@
 tw2.jqplugins.gritter
 ======================
 
-:Author: Ralph Bean <ralph.bean@gmail.com>
+:Author: Ralph Bean <rbean@redhat.com>
 
 .. comment: split here
 
@@ -17,7 +17,8 @@ Links
 Original wrapped project is available `here
 <http://boedesign.com/demos/gritter/>`_
 
-Get the `source from github <http://github.com/ralphbean/tw2.jqplugins.gritter>`_.
+Get the `source from github
+<http://github.com/toscawidgets/tw2.jqplugins.gritter>`_.
 
 `PyPI page <http://pypi.python.org/pypi/tw2.jqplugins.gritter>`_
-and `bugs <http://github.com/ralphbean/tw2.jqplugins.gritter/issues/>`_
+and `bugs <http://github.com/toscawidgets/tw2.jqplugins.gritter/issues/>`_
