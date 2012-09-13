@@ -4,7 +4,7 @@
 
 Name:           python-tw2-jqplugins-gritter
 Version:        2.0.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        jQuery gritter (growl-like pop-ups) for ToscaWidgets2
 
 Group:          Development/Languages
@@ -57,9 +57,14 @@ rm -f build/lib/tw2/jqplugins/__init__.py*
 
 %files
 %doc README.rst LICENSE
-%{python_sitelib}/*
+
+%{python_sitelib}/tw2/jqplugins/gritter
+%{python_sitelib}/%{modname}-%{version}-*
 
 %changelog
+* Mon May 07 2012 Ralph Bean <rbean@redhat.com> - 2.0.1-2
+- Updated directory ownership to avoid conflict with other tw2 packages.
+
 * Wed May 02 2012 Ralph Bean <rbean@redhat.com> - 2.0.1-1
 - Upstream release, includes the LICENSE
 
