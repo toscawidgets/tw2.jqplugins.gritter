@@ -7,8 +7,8 @@ import simplejson
 
 jquery_gritter_js = twc.JSLink(
     modname='tw2.jqplugins.gritter',
-    filename='static/jquery/gritter/js/jquery.gritter.min.js'
-    resources=[twj.jquery_js]
+    filename='static/jquery/gritter/js/jquery.gritter.min.js',
+    resources=[twj.jquery_js],
 )
 jquery_gritter_css = twc.CSSLink(
     modname='tw2.jqplugins.gritter',
